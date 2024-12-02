@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Booking Fix Errors</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp;1 &amp;2 &amp;3 &amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Please select a Run Mode</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Please input a file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>You are not authorized to use this transaction</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>There is an error in your authorizations, please notify an administrator</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error reading excel file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>No data found in excel file</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Invalid credits - Value allowed between &amp;1 and &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Invalid credits - Value allowed is &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Row not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Invalid credits - Value must equal Attempted (&amp;1)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/BKG_FIX</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>No records found</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

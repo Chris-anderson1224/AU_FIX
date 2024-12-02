@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>/ILSIEDU/BKGF_RUN_MODE</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000001</LENG>
+    <OUTPUTLEN>000001</OUTPUTLEN>
+    <ENTITYTAB>/ILSIEDU/BKGF_RUN_MODE</ENTITYTAB>
+    <DDTEXT>Booking Fix Run Mode</DDTEXT>
+   </DD01V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

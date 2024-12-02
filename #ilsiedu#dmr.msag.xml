@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>/ILSIEDU/DMR</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Data Migration Reveiw</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Run ID already used</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>No data found for Run ID &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Error saving data, load aborted</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Match has already been run, cannot run match again</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Error processing some or all records. Records updated.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Problem with class being called for runmode &amp;1. Expected runmode &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>Error converting saved data to the correct structure for comparison</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Student &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Program of Study &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Study not found for student &amp;1 in program &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>Qualification &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>Module &amp;1 not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Error reading academic work</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>Graduation Record not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Graduation Record found, but qualification missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>Multiple records found for this graduation/qualification</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>&apos;Not achieved&apos; doesn&apos;t match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Matched Successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Conferment Date mismatch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Conferment date and &apos;Not Achieved&apos; mismatch</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Academic Work not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Multiple academic work matches found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Credits do not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Cancel information doesn&apos;t match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Cancel information and credits do not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Matched successfully</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Academic Work not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>Multiple academic work matches found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>Credits do not match</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Incorrect Grade/Grade Scale/Appraisal Type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>/ILSIEDU/DMR</ARBGB>
+     <MSGNR>304</MSGNR>
+     <TEXT>Credits and Grade/Grade Scale/Appraisal Type do not match</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

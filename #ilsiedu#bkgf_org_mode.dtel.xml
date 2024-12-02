@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ILSIEDU/BKGF_ORG_MODE</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>/ILSIEDU/BKGF_ORG_MODE</DOMNAME>
+    <HEADLEN>08</HEADLEN>
+    <SCRLEN1>08</SCRLEN1>
+    <SCRLEN2>08</SCRLEN2>
+    <SCRLEN3>08</SCRLEN3>
+    <DDTEXT>Booking Fix Org Mode</DDTEXT>
+    <REPTEXT>Org Mode</REPTEXT>
+    <SCRTEXT_S>Org Mode</SCRTEXT_S>
+    <SCRTEXT_M>Org Mode</SCRTEXT_M>
+    <SCRTEXT_L>Org Mode</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/ILSIEDU/BKGF_ORG_MODE</SHLPNAME>
+    <SHLPFIELD>ORGM</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
