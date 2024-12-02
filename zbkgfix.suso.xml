@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_SUSO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <TOBJ>
+    <OBJCT>ZBKGFIX</OBJCT>
+    <FIEL1>ZBKGFIX_MD</FIEL1>
+    <FIEL2>ZBKGFIX_OG</FIEL2>
+    <FIEL3>ACTVT</FIEL3>
+    <FIEL4>ZBKGFIX_RP</FIEL4>
+    <OCLSS>ZPIQ</OCLSS>
+   </TOBJ>
+   <TOBJT>
+    <LANGU>E</LANGU>
+    <OBJECT>ZBKGFIX</OBJECT>
+    <TTEXT>Booking Fix Program Authorizations</TTEXT>
+   </TOBJT>
+   <TOBJVORFLG>
+    <OBJCT>ZBKGFIX</OBJCT>
+    <FLAG3>N</FLAG3>
+   </TOBJVORFLG>
+   <TACTZ>
+    <TACTZ>
+     <BROBJ>ZBKGFIX</BROBJ>
+     <ACTVT>02</ACTVT>
+    </TACTZ>
+    <TACTZ>
+     <BROBJ>ZBKGFIX</BROBJ>
+     <ACTVT>03</ACTVT>
+    </TACTZ>
+   </TACTZ>
+   <LONGTEXTS>
+    <item>
+     <DOKIL>
+      <ID>UO</ID>
+      <OBJECT>ZBKGFIX</OBJECT>
+      <LANGU>E</LANGU>
+      <TYP>E</TYP>
+      <VERSION>0001</VERSION>
+      <MASTERLANG>X</MASTERLANG>
+      <TXTLINES>00011</TXTLINES>
+      <DOKSTATE>R</DOKSTATE>
+     </DOKIL>
+     <HEAD>
+      <TDOBJECT>DOKU</TDOBJECT>
+      <TDNAME>ZBKGFIX</TDNAME>
+      <TDID>UO</TDID>
+      <TDSPRAS>E</TDSPRAS>
+      <TDFORM>S_DOCU_SHOW</TDFORM>
+      <TDSTYLE>S_DOCUS1</TDSTYLE>
+      <TDVERSION>00001</TDVERSION>
+      <TDLINESIZE>072</TDLINESIZE>
+     </HEAD>
+     <LINES>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;DEFINITION&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>*</TDFORMAT>
+       <TDLINE>This authorization object determines what portions of the program</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>/ILSIEDU/BOOKING_FIX a user is allowed to run</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>U1</TDFORMAT>
+       <TDLINE>&amp;FIELDS&amp;</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;ACTVT&lt;/&gt; - The activity the user can run (Display only, or Change</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>Mode)</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;ZBKGFIX_MD &lt;/&gt;- The run mode (top dropdown in program) determines</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>whether the user uploads a file or makes a direct selection</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;ZBKGFIX_OG &lt;/&gt;- The Org Mode determines whether the user can select</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>only the organizations they&apos;re assigned to, their orgs + sub orgs, or if</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>they can select for any organization</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDFORMAT>AS</TDFORMAT>
+       <TDLINE>&lt;ZU&gt;ZBKGFIX_RP&lt;/&gt; - The Run Parameters determine which run parameter</TDLINE>
+      </TLINE>
+      <TLINE>
+       <TDLINE>checkboxes the user has authorization to check.</TDLINE>
+      </TLINE>
+     </LINES>
+    </item>
+   </LONGTEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_INTF" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOINTERF>
+    <CLSNAME>/ILSIEDU/INF_DMR</CLSNAME>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Data Migration Reveiw Class Interface</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <UNICODE>X</UNICODE>
+   </VSEOINTERF>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_FCAT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change Field Catalog</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>CHANGE_LAYOUT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change ALV Layout</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_ALV_STRUC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get ALV Structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_DYNNR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the Dynpro Number and Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>GET_UPLOAD_STRUC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get the Upload File structure</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>MATCH_RECORDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Match DM records with internal data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CMPNAME>PROCESS_RECORDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Process errors</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+   <DESCRIPTIONS_SUB>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_FCAT</CMPNAME>
+     <SCONAME>CT_FCAT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Field Catalog for List Viewer Control</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>CHANGE_LAYOUT</CMPNAME>
+     <SCONAME>CS_LAYOUT</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV control: Layout structure</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_ALV_STRUC</CMPNAME>
+     <SCONAME>RV_STRUC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>iLSIEDU: Structure/Table Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DYNNR</CMPNAME>
+     <SCONAME>EV_DYNNR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Number of the following screen</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_DYNNR</CMPNAME>
+     <SCONAME>EV_REPID</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Program Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>GET_UPLOAD_STRUC</CMPNAME>
+     <SCONAME>RV_STRUC</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>iLSIEDU: Structure/Table Name</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MATCH_RECORDS</CMPNAME>
+     <SCONAME>CT_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Migration Review Data - Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MATCH_RECORDS</CMPNAME>
+     <SCONAME>ET_RETTAB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>MATCH_RECORDS</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_RECORDS</CMPNAME>
+     <SCONAME>CT_DATA</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data Migration Review Data - Table Type</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_RECORDS</CMPNAME>
+     <SCONAME>ET_RETTAB</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return table</DESCRIPT>
+    </SEOSUBCOTX>
+    <SEOSUBCOTX>
+     <CMPNAME>PROCESS_RECORDS</CMPNAME>
+     <SCONAME>EV_ERROR</SCONAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Checkbox</DESCRIPT>
+    </SEOSUBCOTX>
+   </DESCRIPTIONS_SUB>
+  </asx:values>
+ </asx:abap>
+</abapGit>

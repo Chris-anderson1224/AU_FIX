@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ILSIEDU/OVERRIDE_CRED</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>XFELD</DOMNAME>
+    <HEADLEN>55</HEADLEN>
+    <SCRLEN1>05</SCRLEN1>
+    <SCRLEN2>16</SCRLEN2>
+    <SCRLEN3>25</SCRLEN3>
+    <DDTEXT>Override Credits in load</DDTEXT>
+    <REPTEXT>Override Credits</REPTEXT>
+    <SCRTEXT_S>OvrCr</SCRTEXT_S>
+    <SCRTEXT_M>Override Credits</SCRTEXT_M>
+    <SCRTEXT_L>Override Credits</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>

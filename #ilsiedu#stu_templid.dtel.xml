@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DTEL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD04V>
+    <ROLLNAME>/ILSIEDU/STU_TEMPLID</ROLLNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DOMNAME>PIQAGRTEMPLID</DOMNAME>
+    <HEADLEN>34</HEADLEN>
+    <SCRLEN1>09</SCRLEN1>
+    <SCRLEN2>13</SCRLEN2>
+    <SCRLEN3>34</SCRLEN3>
+    <DDTEXT>Student Booking Appraisal Template</DDTEXT>
+    <REPTEXT>Student Booking Appraisal Template</REPTEXT>
+    <SCRTEXT_S>Bkg Templ</SCRTEXT_S>
+    <SCRTEXT_M>Stu Bkg Templ</SCRTEXT_M>
+    <SCRTEXT_L>Student Booking Appraisal Template</SCRTEXT_L>
+    <DTELMASTER>E</DTELMASTER>
+    <SHLPNAME>/ITED/PR_SH_TEMPLID</SHLPNAME>
+    <SHLPFIELD>TEMPL_ID</SHLPFIELD>
+    <REFKIND>D</REFKIND>
+   </DD04V>
+  </asx:values>
+ </asx:abap>
+</abapGit>
